@@ -1,0 +1,9 @@
+creation_rules:
+  - unencrypted_regex: "^(apiVersion|metadata|kind|type)$"
+    # Specify kms/pgp/etc encryption key
+    # This tutorial uses a local PGP key for encryption.
+    # DO NOT USE IN PRODUCTION ENV
+    pgp: "16BE08973926A5AB4856879825DB47E67492ABA6"
+    # Optionally you can configure to use a providers key store
+    # kms: XXXXXX
+    # gcp_kms: XXXXXX
