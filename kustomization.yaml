@@ -1,2 +1,4 @@
 generators:
   - ./secret-generator.yaml
+resources:
+  - confMap.yaml
